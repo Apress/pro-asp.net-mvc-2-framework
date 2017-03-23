@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartyInvites", "PartyInvites\PartyInvites.csproj", "{87A158A9-55A2-453A-8FD4-DA40F8D45003}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87A158A9-55A2-453A-8FD4-DA40F8D45003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87A158A9-55A2-453A-8FD4-DA40F8D45003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87A158A9-55A2-453A-8FD4-DA40F8D45003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87A158A9-55A2-453A-8FD4-DA40F8D45003}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

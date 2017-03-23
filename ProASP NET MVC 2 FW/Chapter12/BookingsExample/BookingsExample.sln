@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingsExample", "BookingsExample\BookingsExample.csproj", "{622A8E5E-CD50-46DB-ABBF-953F66C6EB6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingsExample.Domain", "BookingsExample.Domain\BookingsExample.Domain.csproj", "{7FE9F0FF-53FC-4E85-95BA-5EDA8DBE47DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{622A8E5E-CD50-46DB-ABBF-953F66C6EB6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{622A8E5E-CD50-46DB-ABBF-953F66C6EB6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{622A8E5E-CD50-46DB-ABBF-953F66C6EB6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{622A8E5E-CD50-46DB-ABBF-953F66C6EB6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FE9F0FF-53FC-4E85-95BA-5EDA8DBE47DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FE9F0FF-53FC-4E85-95BA-5EDA8DBE47DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FE9F0FF-53FC-4E85-95BA-5EDA8DBE47DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FE9F0FF-53FC-4E85-95BA-5EDA8DBE47DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

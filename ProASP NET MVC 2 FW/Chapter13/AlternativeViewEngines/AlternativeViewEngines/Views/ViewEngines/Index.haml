@@ -1,0 +1,17 @@
+﻿%h2= ViewData["message"]
+%p Here's some data
+%table{ width="50%" border=1 }
+  %thead
+    %tr
+      %th Name
+      %th Height (m)
+      %th Date discovered
+  - foreach(var m in Model)
+    %tr
+      %td= m.Name
+      %td= m.Height
+      %td= m.DateDiscovered.ToShortDateString()
+%form{ action=Url.Action("SubmitEmail") method="post" }
+  E-mail:
+  = Html.TextBox("email")
+  %input { type="submit" value="Subscribe" }

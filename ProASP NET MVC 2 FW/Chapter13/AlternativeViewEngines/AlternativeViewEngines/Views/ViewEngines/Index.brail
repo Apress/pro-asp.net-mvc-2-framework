@@ -1,0 +1,22 @@
+﻿<h2>${message}</h2>
+<p>Here's some data:</p>
+<table width="50%" border="1">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Height (m)</th>
+      <th>Date discovered</th>
+    </tr>
+  </thead>
+  <% for m in ViewData.Model: %>
+  <tr>
+    <td>${m.Name}</td>
+    <td>${m.Height}</td>
+    <td>${m.DateDiscovered.ToShortDateString()}</td>
+  </tr>
+  <% end %>
+</table>
+<form action="${Url.Action("SubmitEmail")}" method="post">
+  E-mail: ${html.TextBox("email")}
+  <input type="submit" value="Subscribe" />
+</form>

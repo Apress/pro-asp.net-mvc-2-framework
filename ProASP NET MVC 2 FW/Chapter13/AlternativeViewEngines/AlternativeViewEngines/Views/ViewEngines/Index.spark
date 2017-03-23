@@ -1,0 +1,21 @@
+﻿<viewdata model="IEnumerable[[Mountain]]"/>
+<h2>${ViewData["message"]}</h2>
+<p>Here's some data</p>
+<table width="50%" border="1">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Height (m)</th>
+      <th>Date discovered</th>
+    </tr>
+  </thead>
+  <tr each='var m in Model'>
+    <td>${m.Name}</td>
+    <td>${m.Height}</td>
+    <td>${m.DateDiscovered.ToShortDateString()}</td>
+  </tr>
+</table>
+<form action="${Url.Action("SubmitEmail")}" method="post">
+  E-mail: ${Html.TextBox("email")}
+  <input type="submit" value="Subscribe" />
+</form>

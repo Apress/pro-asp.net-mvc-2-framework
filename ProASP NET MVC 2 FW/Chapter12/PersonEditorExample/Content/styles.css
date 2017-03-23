@@ -1,0 +1,39 @@
+﻿body
+{
+	font-family: Arial;	
+	line-height: 1.3em;
+}
+
+div.person 
+{
+	background: url("gradient-bg.png") repeat-x;
+	border-top: 2px solid silver;
+	padding: 0.5em 1em 0.5em 1em;
+	margin-bottom: 0.5em;
+	letter-spacing: 0.065em;	
+	clear: both;
+}
+
+div.person a 
+{
+	font-size: 1.1em;
+	font-weight: 300;
+	text-decoration: none;	
+}
+
+div.person div.address { color: Gray; font-style: italic; letter-spacing: 0; font-size: 0.9em; }
+
+img.person-icon  
+{
+	width: 45px;
+	height: 45px;
+	float: left;
+	border: none;
+	margin-right: 0.5em;
+}
+
+fieldset label { min-width: 3em; float:left; text-align:right; }
+div.addressEditor label { min-width: 6em; }
+fieldset { margin-top: 1em; }
+
+div.field { margin: 0.4em 0 0.4em 0; }
